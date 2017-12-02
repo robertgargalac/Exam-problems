@@ -1,14 +1,14 @@
-# v -3p
-# remiza - 1p
-# infrangere - 0p
+# win -3p
+# draw - 1p
+# lose - 0p
 
-k = int(input())
-n = int(input())
+k = int(raw_input())
+n = int(raw_input())
 counter = n
 
 data_in = []
 while counter != 0:
-    data_in.append(input())
+    data_in.append(raw_input())
     counter -= 1
 
 teams = []
